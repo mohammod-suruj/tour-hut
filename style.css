@@ -207,3 +207,148 @@ input[type=text],select{
     font-weight: 400;
     line-height: 26px; /* 162.5% */
 }
+
+.Destination-img{
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+}
+.des-2{
+    position: relative;
+
+}
+.mar{
+    margin-right: 25px;
+}
+.des-2 img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 16px;
+
+}    
+
+.country{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.Destination-img-1{
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.des-3{
+    position: relative;
+    border-radius: 16px;
+
+}
+.country-1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.mar-1{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.des-3 img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 16px;
+}  
+
+
+/* chooses section start  */
+
+
+.choose-section{
+    max-width: 1170px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.choose-content{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 25px;
+    padding: 32px 55px 20px 40px;
+
+}
+.choose-content-1{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px 55px 20px 40px;
+
+}
+.choose-content-2{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px 55px 20px 40px;
+    max-width: 570px;
+    margin: auto;
+    margin-top: 25px;
+}
+.cs-text-1{
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.cs-text-2{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+
+
+/* discount section start  */
+
+
+.discount{
+    max-width: 1170px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("image/Group\ 39.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.dis-1{
+    display: flex;
+    align-items: center;
+}
+.dis-2{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
