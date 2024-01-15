@@ -12,6 +12,7 @@ body{
     align-items: center;
     margin: auto;
     margin-top: 52px;
+    margin-bottom: 52px;
 }
 .header-logo{
     display: flex;
@@ -64,6 +65,7 @@ body{
     background-image: url("image/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
     background-size: contain;
+    margin-bottom: 100px;
     
 }
 
@@ -186,9 +188,10 @@ input[type=text],select{
 
 /* Destination section start  */
 
-.Destination-text{
+.destination-text{
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 50px;
 
 }
 .dn-text-1{
@@ -208,7 +211,7 @@ input[type=text],select{
     line-height: 26px; /* 162.5% */
 }
 
-.Destination-img{
+.destination-img{
     display: flex;
     max-width: 1170px;
     margin: auto;
@@ -242,7 +245,7 @@ input[type=text],select{
 }
 
 
-.Destination-img-1{
+.destination-img-1{
     display: flex;
     max-width: 1170px;
     margin: auto;
@@ -285,7 +288,6 @@ input[type=text],select{
     max-width: 1170px;
     display: flex;
     margin: auto;
-    margin-top: 50px;
 
 }
 .choose-content{
@@ -332,7 +334,7 @@ input[type=text],select{
 /* discount section start  */
 
 
-.discount{
+.discount-p-1{
     max-width: 1170px;
     height: 500px;
     margin: auto;
@@ -341,8 +343,19 @@ input[type=text],select{
     background-image: url("image/Group\ 39.png");
     background-repeat: no-repeat;
     background-size: contain;
+    margin-bottom: 25px;
+    border-radius: 16px;
 }
-
+.discount-1{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 56px;
+    width: 50%;
+    height: auto;
+    padding: 25px 0px 50px 60px;
+}
 .dis-1{
     display: flex;
     align-items: center;
@@ -351,4 +364,66 @@ input[type=text],select{
     display: flex;
     align-items: center;
     margin-right: 20px;
+}
+.dis-text-1{
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: -2px;
+}
+.dis-text-2{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.dis-text-3{
+    color: #FF5400;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+
+
+
+.discount-p-2{
+    max-width: 1170px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("image/Group\ 40.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 16px;
+    margin-bottom: 25px;
+}
+
+
+/* place video section start  */
+
+
+.place-video{
+    max-width: 1170px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.pac-bt{
+    width: 210px;
+    
+}
+
+.place-video-1{
+    max-width: 1170px;
+    display: flex;
+    margin: auto;
+    
 }
