@@ -1,3 +1,52 @@
-h1{
-    color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;800&display=swap');
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header section start  */
+
+.header{
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 52px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.hd-text-1{
+    color: #131318;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 16px;
+}
+.hd-text-2{
+    color: #FF5400;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.header-menu ul{
+    display: flex;
+    list-style: none;
+    
+}
+.header-menu ul li{
+    padding-left: 44px;
+
+}
+.header-menu ul li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
