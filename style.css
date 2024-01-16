@@ -6,7 +6,7 @@ body{
 /* header section start  */
 
 .header{
-    max-width: 1170px;
+    max-width: 1250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,6 +17,7 @@ body{
 .header-logo{
     display: flex;
     align-items: center;
+    margin-left: 30px;
 }
 .hd-text-1{
     color: #131318;
@@ -33,9 +34,18 @@ body{
     font-weight: 800;
     line-height: normal;
 }
+.m-i img{
+    display: none;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+}
 .header-menu ul{
     display: flex;
     list-style: none;
+    align-items: center;
+
     
 }
 .header-menu ul li{
@@ -710,11 +720,24 @@ input[type=button]{
 
 @media screen and (max-width:600px){
 
-    .header{
-        flex-direction: column;
+    .m-i img{
+        display: block;
     }
+    .header-logo{
+        margin-left: 0px;
+    }
+    .hd-text-1,.hd-text-2{
+        font-size: 20px;
+    }
+   
     .header-menu ul{
         flex-direction: column;
+        display: none;
+
+    }
+    .header-menu ul li a{
+        margin-left: 0px;
+        font-size: 14px;
     }
     input[type=text]{
         
@@ -742,7 +765,7 @@ input[type=button]{
 
     }
     .hero-section{
-        width: 335px;
+        width: 100%;
         height: 535px;
         flex-shrink: 0;
         background-size:cover;
@@ -791,7 +814,7 @@ input[type=button]{
         row-gap: 25px;
     }
     .destination-img img{
-        width: 335px;
+        width: 100%;
         height: 176px;
         flex-shrink: 0;
     }
@@ -803,7 +826,7 @@ input[type=button]{
         row-gap: 20px;
     }
     .destination-img-1 img{
-        width: 335px;
+        width: 100%;
         height: 176px;
         flex-shrink: 0;
 
@@ -834,7 +857,7 @@ input[type=button]{
     }
     .discount-p-1{
         flex-direction: column;
-        width: 335px;
+        width: 100%;
         height: 500px;
         flex-shrink: 0;
         background-size:cover;
@@ -842,7 +865,7 @@ input[type=button]{
     }
     .discount-p-2{
         flex-direction: column;
-        width: 335px;
+        width: 100%;
         height: 500px;
         flex-shrink: 0;
         background-size:cover;
@@ -850,7 +873,7 @@ input[type=button]{
     }
     .discount-p-1-2{
         flex-direction: column;
-        width: 335px;
+        width: 100%;
         height: 500px;
         flex-shrink: 0;
         background-size:cover;
@@ -950,7 +973,7 @@ input[type=button]{
         padding: 0px 20px 0px 20px;
     }
     .fotter-img img{
-        width: 335px;
+        width: 100%;
         height: 300px;
         flex-shrink: 0;
         margin-top: 30px;
@@ -962,7 +985,7 @@ input[type=button]{
         height: 60px;
         font-size: 15px;
         bottom: 33px;
-        right: 10px;
+        right: 0px;
 
     }
     .fotter-btn-1{
@@ -973,5 +996,8 @@ input[type=button]{
     }
     .i{
         font-size: 20px;
+    }
+    .input-sec{
+        text-align: center;
     }
 }
