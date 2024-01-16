@@ -423,7 +423,142 @@ input[type=text],select{
 
 .place-video-1{
     max-width: 1170px;
-    display: flex;
     margin: auto;
-    
+
+}
+.place-video-2{
+    float: left;
+    width: 50%;
+
+}
+.tour-video{
+    float: right;
+    width: 50%;
+}
+.tour-video video{
+    width: 100%;
+    height: 420px;
+    border-radius: 15px;
+}
+.place-video-1::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .pv-text-1{
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px; /* 150% *//
+  }
+  .pv-text-2{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+  }
+  .place-video-2 ul li{
+    color: #131318;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+  }
+
+
+  /* newsletter or fotter section start  */
+
+  
+
+.fotter{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.news{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 20px 40px 0px 40px; 
+  
+
+}
+.news-text{
+    border-bottom: 1px solid  rgba(19, 19, 24, 0.10); 
+    margin-bottom: 20px;
+}
+.nt-text-1{
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.nt-text-2{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+input[type=name], input[type=email]{
+    width: 378px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-bottom: 20px;
+    padding-left: 20px;
+
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input[type=button]{
+    width:400px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #FF5400;
+    margin-top: 20px;
+}
+.fotter-img img{
+    height: auto;
+    margin-left: 25px;
+    width: 100%;
+}
+.fotter-img{
+    position: relative;
+}
+.fotter-btn{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    bottom: 52px;
+    right: -18px;
 }
